@@ -1,11 +1,11 @@
 import java.util.Scanner;
 public class fun1 {
 	static int mayor(int numero1, int numero2){
-    	      	  if (numero1>numero2){
-    	      		  System.out.print("El numero mayor es: ");
+    	      	  if (numero1<numero2){
+    	      		  System.out.print("El numero menor es: ");
     	      		return numero1;
-    	      	  } else if (numero2>numero1) {
-    	      		  System.out.print("El numero mayor es: ");
+    	      	  } else if (numero2<numero1) {
+    	      		  System.out.print("El numero menor es: ");
     	      		  return numero2;
     	      	  }else{
     	      		  System.out.print("Los nuemros son Iguales");
